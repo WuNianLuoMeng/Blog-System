@@ -1,0 +1,48 @@
+@charset "UTF-8";
+.MAIN {
+	background: url(../image/3.jpg) no-repeat;
+	background-size: cover;
+	height: 700px;
+	width: 900px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.MAIN .title{
+	padding-left: 310px;
+}
+.MAIN .title p{
+	font-family:"华文楷体";
+	font-size:40px;
+	letter-spacing:20px;
+}
+.MAIN .css_main {
+	padding-top: 170px;
+	padding-left: 350px;
+}
+
+.MAIN .css_main .css_input_password {
+	padding-top: 50px;
+}
+
+.MAIN .css_main .css_input_password span {
+	padding-left: 10px;
+}
+
+.MAIN .css_main .Submit input {
+	background: #FC3;
+	width: 100px;
+	height: 36px;
+	margin-top: 60px;
+	margin-left: 30px;
+	border-radius: 30px;
+}
+.MAIN .css_main .error{
+	font-size: 10px;
+	color:red;
+	padding-left:60px;
+}
+.MAIN .css_main .error1{
+	color:red;
+	padding-left:60px;
+	padding-top:40px;
+}

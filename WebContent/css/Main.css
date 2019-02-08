@@ -1,0 +1,68 @@
+@charset "UTF-8";
+.menu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #3d444c;
+	width: 2000px;
+	height: 60px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #ccc;
+	font-size: 24px;
+	padding: 0 15px
+}
+
+.menu font {
+	color: #ccc;
+	font-size: 24px
+}
+
+.MAIN{
+	background-color: rgb(208,223,239);
+	background-size: contain|cover;
+	height:auto;
+	width:auto;
+}
+.MAIN .Top-right {
+    height: 32px;
+}
+ .MAIN .Top-right .B .S {
+	padding-left:1030px;
+    height: 26px;
+    border-radius: 4px;
+}
+.MAIN .Top-right .Btns .Search img{
+	padding-left:5px;
+}
+.MAIN .Top-right .Btns .Search a{
+	padding-left:5px;
+}
+ .MAIN .title {
+    overflow: hidden;
+    word-wrap: break-word;
+    max-width: 720px;
+}
+.MAIN .title .title-blog {
+    font-size: 24px;
+}
+ .MAIN .title .title-blog font{
+	padding-left:40px;
+}
+ .MAIN .title .Btns .Search {
+	padding-left:0px;
+    height: 26px;
+    border-radius: 4px;
+}
+ .MAIN .A{
+ 	padding-top:20px;
+	padding-left:300px; 
+}
+ .MAIN .A .blog_list{
+	background-color: rgb(255,255,255);
+	margin-bottom: 1px;
+}

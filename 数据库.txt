@@ -1,0 +1,126 @@
+
+//user表
+
+ CREATE TABLE `userinfo` (
+
+       `id` int(11) NOT NULL AUTO_INCREMENT,
+
+       `name` varchar(25) NOT NULL,
+
+       `password` varchar(25) NOT NULL,
+
+       PRIMARY KEY (`id`)
+
+     ) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
+
+//write表
+
+USE USER;
+
+DROP TABLE IF EXISTS `write`;
+
+CREATE TABLE `write` (
+
+   id  int(11) NOT NULL AUTO_INCREMENT UNIQUE,
+
+  name varchar(50) NOT NULL,
+
+  title varchar(100) NOT NULL,
+
+  content TEXT DEFAULT NULL,
+
+  comment TEXT DEFAULT NULL,
+
+  comment_user TEXT DEFAULT NULL,
+
+  PRIMARY KEY (`id`)
+
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=UTF8MB4;
+
+ 
+
+ 
+
+//write_blog表
+
+ 
+
+USE USER;
+
+DROP TABLE IF EXISTS `write_blog`;
+
+CREATE TABLE `write_blog` (
+
+   id  int(11) NOT NULL AUTO_INCREMENT UNIQUE,
+
+  name varchar(50) NOT NULL,
+
+  title varchar(100) NOT NULL,
+
+  content TEXT DEFAULT NULL,
+
+  blog_date varchar(20) NOT NULL,
+
+ PRIMARY KEY (`id`)
+
+ 
+
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=UTF8MB4;
+
+ 
+
+/////comment表
+
+ 
+
+ 
+
+CREATE TABLE `comment` (
+
+      `id` int(11) NOT NULL AUTO_INCREMENT,
+
+      `blog_id` int(11) NOT NULL,
+
+     `comment_name` varchar(25) NOT NULL,
+
+     `user_name` varchar(25) NOT NULL,
+
+     `staus` int(11) NOT NULL,
+
+     `comment_content` TEXT DEFAULT NULL,
+
+     `Date` varchar(25) NOT NULL,
+
+     PRIMARY KEY (`id`)
+
+     ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=UTF8MB4;
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 

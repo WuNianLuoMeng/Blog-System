@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.MAIN {
+	
+}
+
+.MAIN .A {
+	padding-top: 80px;
+	padding-left: 510px;
+}
+
+.MAIN .A p {
+	font-family: "华文楷体";
+	font-size: 40px;
+	color:red;
+/* 	letter-spacing: 20px; */
+}
+
+.MAIN .B {
+	padding-top: 30px;
+	padding-left: 500px;
+}
+
+.MAIN .C input {
+	background: #FC3;
+	width: 100px;
+	height: 36px;
+	margin-top: 60px;
+	margin-left: 20px;
+	border-radius: 30px;
+}

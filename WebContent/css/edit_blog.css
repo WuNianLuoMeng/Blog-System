@@ -1,0 +1,54 @@
+@charset "UTF-8";
+.menu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #3d444c;
+	width: 2000px;
+	height: 60px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #ccc;
+	font-size: 24px;
+	padding: 0 15px
+}
+
+.menu font {
+	color: #ccc;
+	font-size: 24px
+}
+.MAIN{
+	background: url(../image/7.jpg) no-repeat;
+	background-size: cover;
+	height:800px;
+}
+.MAIN .list{
+	padding-top:20px;
+	padding-left:500px;
+}
+.MAIN .list .Biaoti .Input_Biaoti {
+	display: block;
+	width: 50%;
+	height: 40px;
+	line-height: 40px;
+	box-sizing: border-box;
+	padding: 0 16px;
+	border: none;
+	background-color: #efefef;
+	color: #4f4f4f;
+}
+.MAIN .list .test-edit {
+	margin-top: 24px;
+}
+.MAIN .title-blog .name{
+	font-size:40px;
+	padding-top:20px;
+	padding-left:20px;
+}
+.MAIN .title-blog .a1{
+	padding-left:970px;
+}

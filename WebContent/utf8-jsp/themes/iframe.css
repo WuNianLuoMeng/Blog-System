@@ -1,0 +1,20 @@
+img {
+/* 	width:500px; */
+/* 	height:400px; */
+	width: 100%;
+}
+body {
+overflow-y: scroll !important;
+}
+.view {
+word-break: break-all;
+}
+.vote_area {
+display: block;
+}
+.vote_iframe {
+background-color: transparent;
+border: 0 none;
+height: 100%;
+}
+#edui1_imagescale{display:none !important;} 去除点击图片后出现的拉伸边框
